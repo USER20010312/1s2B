@@ -5958,7 +5958,7 @@ void testCardPerformance(CardIndex *C, string queryfilepath, int ProbeTest = -1)
 		}
 		if (cdfapx < bEST)
 		{
-			estcard = paraRangeQ(C, qi, zencode0, zencode1, ZT0, ZT1);
+			estcard = singleRangeQ(C, qi, zencode0, zencode1, ZT0, ZT1);
 			estcard = realcard;
 		}
 		else
